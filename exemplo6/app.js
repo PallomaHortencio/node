@@ -6,18 +6,7 @@ const app = express();
 app.set('view engine', 'ejs');
 
 
-
-
 // configurando rotas
-
-// app.get('/', (req, res) => {
-//     const bandas = ["One Direction", "Jonas Brothers", "Banda Deja Vú"]
-//     res.render('paginas/index', {bandas});
-// });
-
-// app.get('/sobre', (req, res) => {
-//     res.send('paginas/sobre');
-// });
 
 app.get('/', (req, res) => {
     const bandas = ["One Direction", "Jonas Brothers", "Banda Deja Vú"]
